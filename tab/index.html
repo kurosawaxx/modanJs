@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="../css/tailwind_dist.css">
+	<link rel="stylesheet" href="../css/style.css">
+	<title>tab</title>
+</head>
+<body class="max-w-1000 m-auto">
+	<div class="tab" id="js-tab">
+		<div class="tab-nav flex">
+			<a href="" class="active mr-0.5 rounded-t-md bg-red-400 text-black py-2 px-3 inline-block" data-nav="0">tab-0</a>
+			<a href="" class="mr-0.5 rounded-t-md bg-red-400 text-black py-2 px-3 inline-block" data-nav="1">tab-1</a>
+			<a href="" class="mr-0.5 rounded-t-md bg-red-400 text-black py-2 px-3 inline-block" data-nav="2">tab-2</a>
+			<a href="" class="mr-0.5 rounded-t-md bg-red-400 text-black py-2 px-3 inline-block" data-nav="3">tab-3</a>
+			<a href="" class="rounded-t-md bg-red-400 text-black py-2 px-3 inline-block" data-nav="4">tab-4</a>
+		</div>
+		<div class="tab-contents border-gray-400 border p-5">
+			<div class="tab-contents-item" data-content="0">
+				タブその１
+			</div>
+			<div class="tab-contents-item" data-content="1">
+				タブその２
+			</div>	
+			<div class="tab-contents-item" data-content="2">
+				タブその３
+			</div>
+			<div class="tab-contents-item" data-content="3">
+				タブその４
+			</div>
+			<div class="tab-contents-item" data-content="4">
+				<ul>
+					<li>タブその５</li>
+					<li>タブその５</li>
+					<li>タブその５</li>
+					<li>タブその５</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<script src="./js/tab.js"></script>
+</body>
+</html>
