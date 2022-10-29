@@ -15,7 +15,6 @@ const quiz = [
 			'スーパーマリオブラザーズ',
 			'星のカービィ',
 			'ロックマンエグゼ',
-			'apex legends'
 		],
 		correct: 'MOTHER2'
 	},{
@@ -23,7 +22,8 @@ const quiz = [
 		answers: [
 			'クラウド',
 			'スコール',
-			'ジタン'
+			'ジタン',
+			'セシル'
 		],
 		correct: 'クラウド'
 	},
