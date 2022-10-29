@@ -3,14 +3,28 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "sass": "sass --watch sass:css"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "sass": "^1.55.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurosawaxx/modanJs.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kurosawaxx/modanJs/issues"
+  },
+  "homepage": "https://github.com/kurosawaxx/modanJs#readme",
+  "devDependencies": {
+    "autoprefixer": "^10.4.13",
+    "postcss": "^8.4.18",
+    "tailwindcss": "^3.2.1"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sass": "sass --watch sass:css",
+    "build": "tailwindcss -i ./css/tailwind.css -o ./css/tailwind_dist.css --watch"
   }
 }
