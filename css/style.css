@@ -1,8 +1,11 @@
-body {
-  background-color: #f00;
-}
 body__h1 {
   background-color: #000;
+}
+body .tab .tab-contents-item {
+  display: none;
+}
+body .tab .tab-nav .active {
+  background-color: #DC2626;
 }
 
 /*# sourceMappingURL=style.css.map */
